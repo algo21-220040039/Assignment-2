@@ -16,11 +16,11 @@ This assignment only use stocks in the Zhongzheng 500 index, the time range is f
 |liabilityToAsset| liability to asset|
 |CFOToNP| operating net cash flow divided by net profit|
 |logprice| natural logarithm of close price|
-|marketvalue| natural logarihtm of market value|
+|marketvalue| natural logarithm of market value|
 
 ## preprocessing
 The collected data underwent the following procedures:
-1. winsorization: values outside the range of 5 times the median absolute deviation are discarded
+1. winsorization: values outside the range of 5 times the median absolute deviation of median are discarded
 2. na filling: na values are filled according to average of corresponding features of companies in the same industry
 3. neutralization: First run OLS of feature with respect to industry and market value, then use the residual to replace initial values
 4. normalization: use Z-socre to normalize training and test data
