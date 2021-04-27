@@ -31,7 +31,9 @@ This project uses support vector machine with Gaussian kernel. There are two hyp
 
 ## performance on the test data
 Two metrics are used to determine the performance, namely accuracy and AUC
+![Avatar](https://github.com/algo21-220040039/Assignment-2/raw/main/prediction%20performance.PNG)
 
 ## constructing a portfolio
 In the testing month, 50 stocks with highest score are selected with value averaged weights, the return are plotted as below
-！[Aaron Swartz](https://github.com/algo21-220040039/Assignment-2/raw/main/result.PNG)
+
+![Aaron Swartz](https://github.com/algo21-220040039/Assignment-2/raw/main/result.PNG)
