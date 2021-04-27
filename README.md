@@ -27,7 +27,7 @@ The collected data underwent the following procedures:
 5. labeling: average return in the next 30 natural days are used as indicators of stock movement, those ranks among top 30% are labeled 1 while those in the bottom 30% are labeled 0, the rest are dropped.
 
 ## svm parameter tuning 
-This project uses support vector machine with Gaussian kernel. There are two hyperparameters: C and gamma to select. C is the penalilty coefficient and gamma is the spread of kernel funciton. Grid search implementation in scikt_learn is used to determine a combination of C and gamma. The optimial parameters are C=10, gamma=0.01 with score 0.52
+This project uses support vector machine with Gaussian kernel. There are two hyperparameters: C and gamma to select. C is the penalty coefficient and gamma is the spread of kernel funciton. Grid search implementation in scikt_learn is used to determine a combination of C and gamma. The optimial parameters are C=10, gamma=0.01 with score 0.52
 
 ## performance on the test data
 Two metrics are used to determine the performance, namely accuracy and AUC
