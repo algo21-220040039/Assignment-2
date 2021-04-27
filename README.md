@@ -34,3 +34,4 @@ Two metrics are used to determine the performance, namely accuracy and AUC
 
 ## constructing a portfolio
 In the testing month, 50 stocks with highest score are selected with value averaged weights, the return are plotted as below
+！[avatar](https://github.com/algo21-220040039/Assignment-2/raw/main/result.PNG)
